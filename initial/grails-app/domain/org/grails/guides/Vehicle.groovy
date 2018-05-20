@@ -1,11 +1,13 @@
 package org.grails.guides
 
-import javax.management.modelmbean.ModelMBean
+//import javax.management.modelmbean.ModelMBean
 
+
+@SuppressWarnings('GrailsDomainReservedSqlKeywordName')
 class Vehicle {
     String name
     Integer year
-    Model make
+    Make make
     Model model
 
 
