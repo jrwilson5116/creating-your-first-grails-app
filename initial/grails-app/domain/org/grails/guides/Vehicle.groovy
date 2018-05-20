@@ -1,15 +1,16 @@
 package org.grails.guides
 
+import javax.management.modelmbean.ModelMBean
+
 class Vehicle {
     String name
-
-    String make
-    String model
+    Integer year
+    Model make
+    Model model
 
 
     static constraints = {
         name maxSize: 255
-        make inList: ['Ford','Chevy','Nissan']
-        model nullable: true
+        year min: 1900
     }
 }
