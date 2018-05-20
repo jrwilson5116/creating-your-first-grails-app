@@ -1,6 +1,5 @@
 package org.grails.guides
 
-//import javax.management.modelmbean.ModelMBean
 
 
 @SuppressWarnings('GrailsDomainReservedSqlKeywordName')
